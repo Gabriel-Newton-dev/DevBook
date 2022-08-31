@@ -1,11 +1,11 @@
 CREATE DATABASE IF NOT EXISTS devbook;
 
-USe debbook;
+USE devbook;
 
 DROP TABLE IF EXISTS usuarios;
 
 CREATE TABLE usuarios(
-    id int auto_incremet primary key,
+    id int auto_increment primary key,
     nome varchar(50) not null, 
     nick varchar(20) not null unique, 
     email varchar(50) not null unique,
