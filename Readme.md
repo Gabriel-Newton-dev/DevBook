@@ -2,7 +2,7 @@
 
 ### Possíbilitando que os usuários possam criar publicações, porém que contenha apenas texto. 
 
-## Linguragem utilizada para criaçao da app: 
+## Linguagem utilizada para criaçao da app: 
 
 ![Golang](img/golang2.jpeg)
 
