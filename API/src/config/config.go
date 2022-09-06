@@ -10,14 +10,17 @@ import (
 )
 
 var (
-	// StringConexaoBando é a string de conexao com MySQL
+	// StringConexaoBanco é a string de conexão com o MySQL
 	StringConexaoBanco = ""
 
-	// Porta ;e aonde a API vai estar rodando
+	// Porta onde a API vai estar rodando
 	Porta = 0
+
+	// SecretKey é a chave que vai ser usada para assinar o token
+	SecretKey []byte
 )
 
-// Carregar vai inicializar as variáveis de ambiente, será chamada no package main pelo config.Carregar
+// Carregar vai inicializar as variáveis de ambiente
 func Carregar() {
 	var erro error
 
@@ -36,4 +39,5 @@ func Carregar() {
 		os.Getenv("DB_NOME"),
 	)
 
+	SecretKey = []byte(os.Getenv("SECRET_KEY"))
 }
