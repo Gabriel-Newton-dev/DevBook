@@ -1,1 +1,9 @@
 .env
+middlewares
+Publicacao.go
+Senha.go
+seguranca
+login.go
+DadosAutenticacao.go
+publicacoes.go
+autenticacao
