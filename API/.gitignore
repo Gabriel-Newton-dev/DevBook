@@ -1,5 +1,4 @@
 .env
-middlewares
 Publicacao.go
 Senha.go
 seguranca
