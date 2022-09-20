@@ -1,13 +1,13 @@
-// package rotas
+package rotas
 
-// import (
-// 	"api/src/controllers"
-// 	"net/http"
-// )
+import (
+	"api/src/controllers"
+	"net/http"
+)
 
-// var rotaLogin = Rota{
-// 	URI:                "/login",
-// 	Metodo:             http.MethodPost,
-// 	Funcao:             controllers.Login,
-// 	RequerAutenticacao: false,
-// }
+var rotaLogin = Rota{
+	URI:                "/login",
+	Metodo:             http.MethodPost,
+	Funcao:             controllers.Login,
+	RequerAutenticacao: false,
+}
